@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width:400px;
+            height:300px;
+            margin:10px;
+            float:right;
+            font-size:20pt;
+            position:absolute;
+        }
+        div:nth-child(1){
+            left:400px;
+            top:400px;
+            background-color: red;
+            z-index: -1;
+        }
+        div:nth-child(2){
+            left:500px;
+            top:500px;
+            background-color: green;
+        }
+     </style>
+</head>
+<body>
+    <div>one</div>
+    <div>two</div>  
+</body>
+</html>

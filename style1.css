@@ -1,0 +1,24 @@
+table,tr,td{
+    border-collapse:collapse;
+    border:5px solid smoke whitesmoke;
+    height:30px;
+    width:40px;
+    align-items:center;
+    margin-top:70px;
+}
+#green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+     }
+.violet{
+    background-color: violet;
+}
+ .red{
+    background-color: red;
+ }
+ 

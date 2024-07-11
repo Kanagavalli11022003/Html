@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo class</title>
+    <style>
+        p::first-line{
+            font-variant: small-caps;
+        }
+        p::first-letter{
+            color:#ff0000;
+            font-size: xx-large;
+        }
+        h1::before{
+            content: url("images/1680423446.png")
+        }
+        h2::after{
+            content: url("images/1680423446.png")
+        }
+        ::marker{
+            color:red;
+            font-size: 23px;
+        }
+        ::selection{
+            color:red;
+            background:yellow;
+        }
+    </style>
+</head>
+<body>
+    <p>You can use the ::first-line pseudo-element to add a</p>
+    <hr>
+
+    <h1>smile</h1>
+    <br>
+    <h2>smile</h2>
+    <br>
+    <ul>
+        <li>apple</li>
+        <li>orange</li>
+        <li>mango</li>
+    </ul>
+    <ol>
+        <li>first</li>
+        <li>second</li>
+        <li>third</li>
+    </ol>
+    <p>This is a paragraph.</p>
+    <div>This is some text in a div element.</div>
+
+</body>
+</html>

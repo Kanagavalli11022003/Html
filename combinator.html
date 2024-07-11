@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The general sibling selector</title>
+    <style>
+        div~p {
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>The general sibling selector (~) select all elements</h2>
+
+    <div>
+        <p>Paragraph 1 in the div.</p>
+        <p>Paragraph 2 in the div.</p>
+    </div>
+    <P>Paragraph 3. .</P>
+    <p>paragraph 4. .</p>
+    <p>Paragraph 4. .</p>
+    <div>
+        <p>Paragraph 5 in the div</p>
+        <p>Paragraph 6 in the div</p>
+    </div>
+
+</body>
+
+</html>

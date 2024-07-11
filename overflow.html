@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow</title>
+    <style>
+       div.ex1{
+            background-color: lightblue;
+            width:110px;
+            height:100px;
+            overflow:scroll;
+        }
+        div.ex2{
+            width:110px;
+            height:100px;
+            overflow:hidden;
+        }
+        div.ex3{
+            background-color: lightblue;
+            width:110px;
+            height:110px;
+            overflow:auto;
+        }
+        div.ex4{
+            background-color: lightblue;
+            width:110px;
+            height:110px;
+            overflow:clip;
+            background-color: lightblue;
+            width: 110px;
+            overflow: scroll;
+            height: 100px;
+}
+        }
+        div.ex5{
+            background-color: lightblue;
+            width:110px;
+            height:110px;
+            overflow:visible;
+        }
+    </style>
+</head>
+<body>
+    <div class="ex1">Lorem ipsum dolor sit amet,the world is a wonderful nature.My favourite language Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam aliquid voluptatibus reiciendis facere excepturi saepe fugit quod rem. Neque impedit esse quia autem dolorum aut reprehenderit quidem accusantium assumenda consectetur!</div>
+     <h2>Overflow: hidden:</h2>
+     <div class="ex2">Lorem ipsum dolor sit amet,the world is a wonderful nature.My favourite language is tamil.</div>
+    <h2>Overflow: auto:</h2>
+    <div class="ex3">Lorem ipsum dolor sit amet,the world is a wonderful nature.My favourite language is tamil.</div>
+    <h2>Overfllow: clip</h2>
+   <div class="ex4" >Lorem ipsum dolor sit amet,the world is a wonderful nature.My favourite language is tamil.</div>
+   <h2>Overflow: visible:</h2>
+   <div class="ex5">Lorem ipsum dolor sit amet,the world is a wonderful nature.My favourite language is tamil.</div>
+   overflow-x:visible;
+   overflow-y:visible;
+</body>
+</html>

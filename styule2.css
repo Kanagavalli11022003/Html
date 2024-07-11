@@ -1,0 +1,49 @@
+table{
+    border-collapse:collapse;
+}
+space{
+    border:none;
+}  
+.domato{
+    padding-top:20px;
+    background-image:url(/domato.jpeg)
+    background-size:60px 60px;
+    background-repeat:no repeat;
+    text-align:right;
+}
+.prinjale{
+    padding-top:20px;
+    background-image:url(/prinjale.jpeg)
+    background-size:60px 60px;
+    background-repeat:no repeat;
+}
+.carot{
+    padding-top:20px;
+    background-image:url(/carot.jpeg)
+    background-size:60px 60px;
+    background-repeat:no repeat;
+}
+.ladisfinger{
+    padding-top:20px;
+    background-image:url(/ladisfinger.jpeg)
+    backround-size:60px 60px;
+    background-repeat:no repeat;
+}
+.coliflower{
+    padding-top:20px;
+    background-image:url(/coliflower.jpeg)
+    background-size:60px 60px;
+    background-repeat:no repeat;
+}
+.beetroot{
+    padding-top:20px;
+    background-image:url(/beetroot.jpeg)
+    background-size:60px 60px;
+    background-repeat:no repeat;
+}
+.broccoli{
+    padding-top:20px;
+    background-image:url(/broccoli.jpeg)
+    background-size:60px 60px;
+    background-repeat:no repeat;
+}

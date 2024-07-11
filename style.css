@@ -1,0 +1,21 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    margin:0;
+    padding:0;
+    width:100%;
+}
+img{
+    width: 100px;
+}
+.header{
+    height:60px;
+    outline:1px solid aliceblue;
+    padding:0px 10px;
+    display:flex;
+    alignment.item:center;
+}
+.logocontainer{
+
+}
